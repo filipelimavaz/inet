@@ -8,14 +8,14 @@ const Footer = () => {
     <div className='footer'>
       <div className='top'>
         <div>
-          <h1>Uma Ideia</h1>
-          <p>A ideia certa que faz a diferença!</p>
+          <h1>iNet Telecomunicações</h1>
+          <p>Tudo que você espera do provedor de internet</p>
         </div>
         <div>
-          <a href='https://www.instagram.com/umaideia_/'><i className='fa-brands fa-square-instagram'></i></a>
-          <a href='https://www.facebook.com/umaideiaagencia/'><i className='fa-brands fa-square-facebook'></i></a>
+          <a href='https://www.instagram.com/inetnordeste/'><i className='fa-brands fa-square-instagram'></i></a>
+          <a href='https://www.facebook.com/inetnordeste'><i className='fa-brands fa-square-facebook'></i></a>
           <a href='/'><i className='fa-brands fa-linkedin'></i></a>
-          <a href='https://api.whatsapp.com/send?phone=5583986264672&text=Ol%C3%A1,%20Ag%C3%AAncia%20Uma%20Ideia'><i className='fa-brands fa-square-whatsapp'></i></a>
+          <a href='https://api.whatsapp.com/message/IM4FGE2PLUHVI1'><i className='fa-brands fa-square-whatsapp'></i></a>
         </div>
       </div>
       <div className='bottom'>
@@ -25,10 +25,10 @@ const Footer = () => {
             <a>Home</a>
           </Link>
           <Link to='/sobre'>
-            <a>Sobre</a>
+            <a>Institucional</a>
           </Link>
           <Link to='/servicos'>
-            <a>Serviços</a>
+            <a>Planos</a>
           </Link>
           <Link to='/contato'>
             <a>Contato</a>
@@ -36,15 +36,15 @@ const Footer = () => {
         </div>
         <div>
           <h4>Redes Sociais</h4>
-          <a href="https://www.instagram.com/umaideia_/">Instagram</a>
-          <a href="https://www.facebook.com/umaideiaagencia/">Facebook</a>
-          <a href="./">LinkedIn</a>
-          <a href="https://api.whatsapp.com/send?phone=5583986264672&text=Ol%C3%A1,%20Ag%C3%AAncia%20Uma%20Ideia">Whastapp</a>
+          <a href="https://www.instagram.com/inetnordeste/">Instagram</a>
+          <a href="https://www.facebook.com/inetnordeste">Facebook</a>
+          <a href="./">Telegram</a>
+          <a href="https://api.whatsapp.com/message/IM4FGE2PLUHVI1">Whastapp</a>
         </div>
         <div className='last'>
           <h4>Contate-nos</h4>
           <a href="tel:83900000000">Tel: 83 90000-0000</a>
-          <a href="mailto:agenciaumaideia@gmail.com">E-mail: agenciaumaideia@gmail.com</a>
+          <a href="mailto:inetnordeste@gmail.com">E-mail: inetnordeste@gmail.com</a>
         </div>
         <div className='last'>
           <h4>Outros</h4>
@@ -53,7 +53,7 @@ const Footer = () => {
           <a href="./">Licença</a>
         </div>
       </div>
-      <p>© Copyright 2024 – Todos os direitos reservados: Agência Uma Ideia</p>
+      <p>© Copyright 2024 – Todos os direitos reservados: iNet Telecomunicações</p>
     </div>
   )
 }

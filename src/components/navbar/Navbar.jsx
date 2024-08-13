@@ -34,7 +34,7 @@ const Navbar = () => {
         ))}
         <li>
           <Button
-            url=''
+            url='http://201.216.122.0:8000/accounts/central/login'
             buttonCName='button nav'
             buttonText='Área do cliente'
             buttonIcon='fa-solid fa-circle-user'
