@@ -5,10 +5,9 @@ import serviceImg from '../../assets/imgs/night.jpg';
 import Button from '../../components/button/Button';
 import Footer from '../../components/footer/Footer';
 import ServiceInfoCard from '../../components/serviceinfocard/ServiceInfoCard';
-import PlanCard from '../../components/plancard/PlanCard';
+import PlanContainer from '../../components/plancontainer/PlanContainer';
 
 import servicesData from './servicesData.json';
-import plansData from './plansData.json';
 
 const Service = () => {
   return (
@@ -34,26 +33,10 @@ const Service = () => {
           ))}
         </div>
 
-        <div className='plan-container'>
-          <h2>Nossos Planos</h2>
-          <p>Oferecemos os melhores planos para com a necessidade do cliente</p>
-
-          <div className='plan-card-container'>
-            {plansData.slice(0, 4).map((plan, index) => (
-              <PlanCard
-                key={index}
-                title={plan.title}
-                details={plan.details}
-              />
-            ))}
-          </div>
-          <div className='plan-card-last'>
-            <PlanCard
-              title={plansData[4].title}
-              details={plansData[4].details}
-            />
-          </div>
-        </div>
+        <PlanContainer 
+          sessionTitle="Nossos Planos"
+          sessionText="Oferecemos os melhores planos para com a necessidade do cliente"
+        />
 
         <p>Quer mais informações? Nosso whatsapp está sempre disponível!</p>
         <Button

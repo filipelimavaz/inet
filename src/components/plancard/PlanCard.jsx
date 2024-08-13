@@ -7,17 +7,11 @@ const PlanCard = (props) => {
       <h3>{props.title}</h3>
       {props.details.map((detail, index) => (
         <React.Fragment key={index}>
-          {detail === "OU" ? (
-            <div className='dash'>
-              <span></span>
-              <span className='special-line'>{detail}</span>
-              <span></span>
-            </div>
-          ) : (
             <p>{detail}</p>
-          )}
+            <span></span>
         </React.Fragment>
       ))}
+      <a href="#" className="saiba-mais-link">Saiba Mais</a> {/* Substitui o botão por um link */}
     </div>
   );
 };

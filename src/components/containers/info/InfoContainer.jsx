@@ -12,8 +12,9 @@ const InfoContainer = (props) => {
                 <div className='info-text'>
                     <h2>{props.textTitle}</h2>
                     <p>{props.textContent}</p>
+                    <p>{props.textContent2}</p>
                     <Button
-                        buttonCName='button info'
+                        buttonCName='inst'
                         buttonText={props.buttonText}
                         buttonIcon={props.buttonIcon}
                     />

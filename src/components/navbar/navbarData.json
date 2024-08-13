@@ -5,13 +5,13 @@
         "icon": "fa-solid fa-house-user"
     },
     {
-        "title": "Sobre",
-        "url": "/sobre",
+        "title": "Planos",
+        "url": "/servicos",
         "icon": "fa-solid fa-circle-info"
     },
     {
-        "title": "Serviços",
-        "url": "/servicos",
+        "title": "Institucional",
+        "url": "/sobre",
         "icon": "fa-solid fa-briefcase"
     },
     {

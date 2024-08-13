@@ -1,6 +1,6 @@
 .carousel {
   position: relative;
-  height: 70vh; /* Altura ajustável */
+  height: 70vh;
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
@@ -27,6 +27,7 @@
   display: flex;
   align-items: end;
   justify-content: right;
+  object-position: 0% 20%;
 }
 
 .slider-text {
@@ -40,7 +41,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .slider-text img {
@@ -103,6 +104,12 @@
 
 .indicator.active {
   background-color: white;
+}
+
+@media screen and (max-width: 1400px) {
+  .slide {
+    object-position: top;
+  }
 }
 
 @media screen and (max-width: 850px) {

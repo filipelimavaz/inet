@@ -13,13 +13,12 @@
     padding: 3rem 1rem;
     box-shadow: -1px 1px 62px 18px rgba(0, 0, 0, 0.2);
 }
-
-.card i,
-.card h3 {
-    font-size: 1.5rem;
+.card i {
+    font-size: 2rem;
 }
 
 .card h3 {
+    font-size: 1.5rem;
     font-weight: 500;
     letter-spacing: 1px;
 }

@@ -1,17 +1,17 @@
 [
     {
-        "title": "Design Gráfico",
+        "title": "Qualidade Garantida",
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "icon": "fa-solid fa-wand-magic-sparkles"
+        "icon": "fa-solid fa-star"
     },
     {
-        "title": "Fotografia",
+        "title": "Alta Performance",
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "icon": "fa-solid fa-camera"
+        "icon": "fa-solid fa-wifi"
     },
     {
-        "title": "Audiovisual",
+        "title": "Atendimento Humanizado",
         "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "icon": "fa-solid fa-video"
+        "icon": "fa-solid fa-shield-heart"
     }
 ]

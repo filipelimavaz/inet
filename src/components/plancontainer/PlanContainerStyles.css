@@ -1,0 +1,53 @@
+.plan-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.plan-container h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 4rem 10rem 0 10rem;
+    white-space: nowrap;
+}
+
+.plan-container p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.plan-card-container {
+    margin: 4rem 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.plan-card {
+    margin-top: 2rem;
+    width: 25%;
+}
+
+@media screen and (max-width: 1500px) {
+    .plan-card {
+        flex: 1 1 calc(40%);
+        max-width: calc(40%);
+        margin: 4rem 0;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .plan-card-container {
+        margin: 4rem 0 0 0;
+    }
+
+    .plan-card {
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin: 0 2rem;
+    }
+}

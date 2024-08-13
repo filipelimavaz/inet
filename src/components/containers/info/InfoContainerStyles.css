@@ -35,6 +35,11 @@
     text-align: start;
 }
 
+.info-text.button {
+    position: relative;
+    z-index: 1;
+}
+
 .info-image {
     position: relative;
     width: 45%;
@@ -72,6 +77,10 @@
 
 .info-content.about.right {
     flex-direction: row;
+}
+
+.info-content.button {
+    display: block;
 }
 
 @media screen and (max-width: 1100px) {

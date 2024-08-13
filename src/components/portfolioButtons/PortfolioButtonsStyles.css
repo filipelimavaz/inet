@@ -1,0 +1,20 @@
+.portfolio-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    justify-content: center;
+    margin: 4rem 0;
+    width: 100%;
+}
+
+.portfolio-buttons h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2.5rem;
+}

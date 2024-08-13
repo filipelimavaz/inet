@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './CarouselStyles.css';
 
+import data from './carouselData.json'
+
 import logo from '../../assets/imgs/logo.png';
 
 const Carousel = (props) => {
@@ -32,10 +34,7 @@ const Carousel = (props) => {
                         />
                         <div className='slider-text'>
                             <img src={logo} alt="Logo"></img>
-                            <p>
-                                A ideia certa{' '}
-                                <span>{props.sliderTexts[index]}</span>, faz toda a diferença.
-                            </p>
+                            <p key={index}>{data[index].text}</p>
                         </div>
                     </div>
                 ))}

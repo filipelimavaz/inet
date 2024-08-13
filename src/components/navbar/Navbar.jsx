@@ -34,10 +34,10 @@ const Navbar = () => {
         ))}
         <li>
           <Button
-            url='https://api.whatsapp.com/send?phone=5583986264672&text=Ol%C3%A1,%20Ag%C3%AAncia%20Uma%20Ideia'
+            url=''
             buttonCName='button nav'
-            buttonText='Whatsapp'
-            buttonIcon='fa-brands fa-whatsapp'
+            buttonText='Área do cliente'
+            buttonIcon='fa-solid fa-circle-user'
           />
         </li>
       </ul>
