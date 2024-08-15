@@ -12,8 +12,14 @@
     font-weight: 700;
 }
 
-.contact-info div {
+.contact-info div{
     margin: 2rem 0;
+}
+
+.contact-info.tel {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
 }
 
 .contact-info h3 {

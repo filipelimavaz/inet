@@ -14,7 +14,8 @@ const InfoContainer = (props) => {
                     <p>{props.textContent}</p>
                     <p>{props.textContent2}</p>
                     <Button
-                        buttonCName='inst'
+                        buttonCName={props.cName}
+                        to={props.to}
                         buttonText={props.buttonText}
                         buttonIcon={props.buttonIcon}
                     />

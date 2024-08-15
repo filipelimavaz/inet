@@ -14,8 +14,8 @@ const Footer = () => {
         <div>
           <a href='https://www.instagram.com/inetnordeste/'><i className='fa-brands fa-square-instagram'></i></a>
           <a href='https://www.facebook.com/inetnordeste'><i className='fa-brands fa-square-facebook'></i></a>
-          <a href='/'><i className='fa-brands fa-linkedin'></i></a>
           <a href='https://api.whatsapp.com/message/IM4FGE2PLUHVI1'><i className='fa-brands fa-square-whatsapp'></i></a>
+          <a href='/'><i className='fa-brands fa-telegram'></i></a>
         </div>
       </div>
       <div className='bottom'>
@@ -43,8 +43,10 @@ const Footer = () => {
         </div>
         <div className='last'>
           <h4>Contate-nos</h4>
-          <a href="tel:83900000000">Tel: 83 90000-0000</a>
+          <a href="tel:+5583988007937">Tel: +55 83 98800-7937</a>
           <a href="mailto:inetnordeste@gmail.com">E-mail: inetnordeste@gmail.com</a>
+          <a>R. Est. Genilson Xavier de Moura Almeida, 275</a>
+          <a>Gramame, João Pessoa. PB. 58068-353</a>
         </div>
         <div className='last'>
           <h4>Outros</h4>

@@ -2,7 +2,6 @@ import React from 'react';
 import InfoContainer from '../../components/containers/info/InfoContainer';
 import CardContainer from '../../components/containers/card/CardContainer';
 import Carousel from '../../components/carousel/Carousel';
-import PortfolioContainer from '../../components/containers/portfolio/PortfolioContainer';
 import Footer from '../../components/footer/Footer';
 import PlanContainer from '../../components/plancontainer/PlanContainer';
 import PortfolioButtons from '../../components/portfolioButtons/PortfolioButtons';
@@ -70,6 +69,7 @@ const Home = () => {
         textContent2="Nós garantimos um serviço de suporte ao cliente de alta qualidade com conexão via fibra optica de alta velocidade ligada a todo o mundo."
         img1={infoImg1}
         img2={infoImg2}
+        buttonCName='inst'
         buttonText="Institucional"
         buttonIcon="fa-solid fa-arrow-pointer"
       />
