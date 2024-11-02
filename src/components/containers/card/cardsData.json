@@ -1,17 +1,17 @@
 [
     {
         "title": "Qualidade Garantida",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "text": "Conexão estável e de alta qualidade para você navegar sem preocupações.",
         "icon": "fa-solid fa-star"
     },
     {
         "title": "Alta Performance",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "text": "Velocidade e desempenho que acompanham o ritmo da sua vida digital.",
         "icon": "fa-solid fa-wifi"
     },
     {
         "title": "Atendimento Humanizado",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "text": "Suporte próximo e dedicado para atender você com cuidado e eficiência.",
         "icon": "fa-solid fa-shield-heart"
     }
 ]

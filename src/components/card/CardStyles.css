@@ -24,7 +24,7 @@
 }
 
 .card:hover {
-    background-color: var(--quinary-color)
+    background-color: var(--tertiary-color)
 }
 
 @media screen and (max-width: 1050px) {
