@@ -21,7 +21,7 @@
     padding: 1rem;
 }
 
-.inst {
+.button-inst {
     display: flex;
     background: var(--primary-color);
     padding: 1rem 2rem;
@@ -47,9 +47,12 @@
     background-color: var(--secondary-color);
 }
 
+.button-inst:hover {
+    background: var(--secondary-color);
+}
+
 .button.service:hover {
     background: var(--tertiary-color);
-    color: var(--primary-color);
 }
 
 .button.nav {
@@ -61,7 +64,6 @@
 
 .button.nav:hover {
     background: var(--tertiary-color);
-    color: var(--primary-color);
 }
 
 .button:hover {

@@ -11,7 +11,7 @@ const PlanCard = (props) => {
             <span></span>
         </React.Fragment>
       ))}
-      <a href="#" className="saiba-mais-link">Saiba Mais</a> {/* Substitui o botão por um link */}
+      <a href={props.url} className="saiba-mais-link">Saiba Mais</a>
     </div>
   );
 };

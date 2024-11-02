@@ -23,11 +23,11 @@ const Contact = () => {
           <div className='contact-info tel'>
             <h3><i className='fa-solid fa-phone'></i>Telefones:</h3>
             <a href="tel:+5583988007937">SAC: +55 83 98800-7937</a>
-            <a href="tel:+5583988007937">Vendas: +55 83 98800-7937</a>
+            <a href="tel:+558398644279">Vendas: +55 83 9864-4279</a>
           </div>
           <div>
             <h3><i className='fa-solid fa-envelope'></i>E-mail: </h3>
-            <a href="mailto:agenciaumaideia@gmail.com">agenciaumaideia@gmail.com</a>
+            <a href="mailto:inetnordeste@gmail.com">inetnordeste@gmail.com</a>
           </div>
           <div>
             <h3><i className='fa-solid fa-location-dot'></i>Endereço: </h3>

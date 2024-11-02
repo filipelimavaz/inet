@@ -22,8 +22,10 @@ const Service = () => {
         <h2>Nossos Serviços</h2>
         <p>Conheça os nossos serviços</p>
 
+        <p id="intro-text">{servicesData.introText}</p>
+
         <div className='service-info-card-container'>
-          {servicesData.map((service, index) => (
+          {servicesData.services.map((service, index) => (
             <ServiceInfoCard 
               key={index}
               iconClass={service.iconClass}

@@ -16,6 +16,7 @@ const PlanContainer = (props) => {
             key={index}
             title={plan.title}
             details={plan.details}
+            url={props.url}
           />
         ))}
       </div>

@@ -58,6 +58,7 @@ const Home = () => {
       <PlanContainer
         sessionTitle="Nossos Planos"
         sessionText="Oferecemos os melhores planos para com a necessidade do cliente"
+        url='https://wa.me/83998644279'
       />
 
       <InfoContainer
@@ -69,7 +70,8 @@ const Home = () => {
         textContent2="Nós garantimos um serviço de suporte ao cliente de alta qualidade com conexão via fibra optica de alta velocidade ligada a todo o mundo."
         img1={infoImg1}
         img2={infoImg2}
-        buttonCName='inst'
+        buttonCName='button-inst'
+        to='/sobre'
         buttonText="Institucional"
         buttonIcon="fa-solid fa-arrow-pointer"
       />

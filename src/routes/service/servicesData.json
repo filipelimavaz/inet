@@ -1,36 +1,21 @@
-[
+{
+  "introText": "Nosso escritório fica localizado no Novo Geisel, atendemos os bairros Colinas do Sul I e II, Gervásio Maia, José Américo, Geisel, Gramame, Laranjeiras, Cuiá, Conjunto Marinês e João Paulo II. Nosso foco é oferecer uma conexão de qualidade e construir relações de confiança com a comunidade, sempre priorizando a satisfação dos nossos clientes.",
+  "services": [
     {
-      "iconClass": "fa-solid fa-camera",
-      "title": "Fotografia",
+      "iconClass": "fa-solid fa-tower-broadcast",
+      "title": "Nossa cobertura",
       "services": [
-        "Casamentos",
-        "Eventos",
-        "Aniversários",
-        "Batizados",
-        "Ensaio no estúdio",
-        "Ensaio em ambientes externos"
-      ]
-    },
-    {
-      "iconClass": "fa-solid fa-video",
-      "title": "Audiovisual",
-      "services": [
-        "Gravação de eventos",
-        "Filmagem de casamento",
-        "Vídeos de aniversários",
-        "Gravação de batizados",
-        "Filmagem no estúdio",
-        "Filmagem em ambientes externos"
-      ]
-    },
-    {
-      "iconClass": "fa-solid fa-wand-magic-sparkles",
-      "title": "Design Gráfico",
-      "services": [
-        "Peças de artes gráficas",
-        "Identidade visual",
-        "Gerenciamento de perfil do Instagram"
+        "Colinas do Sul I e II",
+        "Gervásio Maia",
+        "José Américo",
+        "Geisel",
+        "Novo Geisel (Gramame)",
+        "Laranjeiras",
+        "Cuiá",
+        "Conjunto Marinês",
+        "João Paulo II",
+        "Gramame/SESC"
       ]
     }
   ]
-  
+}

@@ -1,18 +1,30 @@
-[
-    {
-        "title": "David Gonçalves",
-        "description": "Fotógrafo e Designer Gráfico"
+{
+    "Hero": {
+      "cName": "hero mid",
+      "title": "Institucional"
     },
-    {
-        "title": "Edilson Freire",
-        "description": "Fotógrafo e Designer Gráfico"
-    },
-    {
-        "title": "Edina Freira",
-        "description": "Gerenciamento de dados"
-    },
-    {
-        "title": "Romero Carvalho",
-        "description": "Designer Gráfico"
-    }
-]
+    "aboutContainer": [
+      {
+        "sessionTitle": "Quem somos",
+        "sessionText": "Provedor de internet destaque no cenário de Gramame e Região",
+        "cName": "info-content",
+        "textTitle": "Como começamos",
+        "textContent": "Nossa história começou com a vontade de transformar a experiência de internet para as comunidades de João Pessoa. Sabíamos que o acesso à internet de qualidade era essencial para o desenvolvimento pessoal e profissional, e percebemos que muitos bairros ainda careciam de uma conexão estável e acessível. Foi assim que decidimos iniciar nossa jornada como provedor local, com o compromisso de oferecer um serviço de internet rápido, seguro e confiável.",
+        "img1": "infoImg1",
+        "img2": "infoImg2"
+      },
+      {
+        "cName": "info-content about",
+        "textTitle": "Nossa Missão",
+        "textContent": "Nossa missão é conectar pessoas, lares e empresas de João Pessoa com uma internet de qualidade, acessível e confiável, contribuindo para o desenvolvimento pessoal, social e econômico da nossa comunidade. Queremos fazer parte do dia a dia de nossos clientes, garantindo uma experiência online fluida, que apoie seus estudos, trabalho e momentos de lazer, promovendo assim a inclusão digital e o crescimento sustentável na região.",
+        "img1": "infoImg1"
+      },
+      {
+        "cName": "info-content about right",
+        "textTitle": "Nossos Valores",
+        "textContent": "Nosso trabalho é guiado pela transparência, proximidade e comprometimento com a satisfação do cliente. Valorizamos o respeito e a responsabilidade com a comunidade, buscando sempre oferecer um atendimento humanizado e atento às necessidades de cada cliente. Acreditamos que a inovação e a ética são fundamentais para construir um serviço de internet que realmente faça a diferença, proporcionando estabilidade e segurança em cada conexão.",
+        "img1": "infoImg2"
+      }
+    ]
+  }
+  

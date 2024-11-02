@@ -20,7 +20,9 @@ const Navbar = () => {
   return (
     <nav className='navbar-items'>
       <div className='navbar-logo'>
-        <img src={logo} alt='Uma Ideia Logo'></img>
+        <Link to='/'> {/* Adicionando o Link ao logotipo */}
+          <img src={logo} alt='Inet Logo' />
+        </Link>
       </div>
       {mobileMenuIcon()}
       <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
