@@ -104,7 +104,7 @@
         width: 50%;
     }
 
-    p {
+    .footer p {
         font-size: 0.8rem;
     }
 }
@@ -134,7 +134,7 @@
         width: 100%;
     }
 
-    p {
+    .footer p {
         font-size: 0.7rem;
         text-align: center;
     }

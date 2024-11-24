@@ -1,9 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-
+import { Link, useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 import './FooterStyles.css';
 
 const Footer = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <div className='footer'>
       <div className='top'>
@@ -21,18 +27,10 @@ const Footer = () => {
       <div className='bottom'>
         <div>
           <h4>Website</h4>
-          <Link to='/'>
-            <a>Home</a>
-          </Link>
-          <Link to='/sobre'>
-            <a>Institucional</a>
-          </Link>
-          <Link to='/servicos'>
-            <a>Planos</a>
-          </Link>
-          <Link to='/contato'>
-            <a>Contato</a>
-          </Link>
+          <Link to="/">Home</Link>
+          <Link to="/sobre">Institucional</Link>
+          <Link to="/servicos">Planos</Link>
+          <Link to="/contato">Contato</Link>
         </div>
         <div>
           <h4>Redes Sociais</h4>
@@ -51,7 +49,7 @@ const Footer = () => {
         <div className='last'>
           <h4>Outros</h4>
           <a 
-            href="../../public/documents/POLITICA_PRIVACIDADE_INETTELECOMUNICACOES.pdf" 
+            href="/documents/POLITICA_PRIVACIDADE_INETTELECOMUNICACOES.pdf" 
             download="POLITICA_PRIVACIDADE_INETTELECOMUNICACOES.pdf"
           >
             Política de Privacidade
