@@ -1,7 +1,7 @@
 .button {
     display: flex;
     background: var(--primary-color);
-    padding: 1rem 2rem;
+    padding: 1rem 2.5rem;
     border-radius: 6px;
     font-size: 1rem;
     font-weight: bold;
@@ -13,18 +13,19 @@
     border: 1px solid var(--primary-font-color);
     transition: 0.5s ease-in-out;
     box-shadow: -1px 1px 62px 18px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
 }
 
 .button.info {
     margin-top: 1rem;
     width: 250px;
-    padding: 1rem;
+    padding: 1rem 2.5rem;
 }
 
 .button-inst {
     display: flex;
     background: var(--primary-color);
-    padding: 1rem 2rem;
+    padding: 1rem 2.5rem;
     border-radius: 6px;
     font-size: 1rem;
     font-weight: bold;
@@ -37,14 +38,16 @@
     transition: 0.5s ease-in-out;
     box-shadow: -1px 1px 62px 18px rgba(0, 0, 0, 0.2);
     width: 50%;
-    margin-top: 1rem;
+    margin: 1rem auto;
 }
 
 .button.service {
     margin-top: 1rem;
     width: 250px;
-    padding: 1rem;
+    padding: 1rem 2.5rem;
     background-color: var(--secondary-color);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button-inst:hover {
@@ -77,6 +80,16 @@
 
 @media screen and (max-width: 850px) {
     .button.info {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .button-inst {
+        padding-left: 7rem;
+        padding-right: 6.5rem;
+    }
+
+    .button.service {
         margin: 0 auto;
         width: 80%;
     }

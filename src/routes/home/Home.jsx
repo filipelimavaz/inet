@@ -7,59 +7,20 @@ import PlanContainer from '../../components/plancontainer/PlanContainer';
 import PortfolioButtons from '../../components/portfolioButtons/PortfolioButtons';
 
 import './HomeStyles.css';
+import servicesData from '../service/servicesData.json';
 
 import infoImg1 from '../../assets/imgs/2.jpg';
 import infoImg2 from '../../assets/imgs/3.jpg';
 import infoImg3 from '../../assets/imgs/1.jpg';
-import infoImg4 from '../../assets/imgs/4.jpg';
-import infoImg5 from '../../assets/imgs/5.jpg';
-import infoImg6 from '../../assets/imgs/6.jpg';
-import infoImg10 from '../../assets/imgs/10.jpg';
-import infoImg8 from '../../assets/imgs/8.jpg';
-import infoImg9 from '../../assets/imgs/9.jpg';
 
 const Home = () => {
   const sliderImages = [infoImg1, infoImg2, infoImg3];
-  const photographImages = [
-    infoImg1,
-    infoImg2,
-    infoImg3,
-    infoImg4,
-    infoImg5,
-    infoImg6,
-    infoImg10,
-    infoImg8,
-    infoImg9,
-    infoImg1,
-    infoImg2,
-    infoImg3,
-  ];
-  const graphicDesignImages = [
-    infoImg5,
-    infoImg4,
-    infoImg2,
-    infoImg3,
-    infoImg8,
-    infoImg1,
-    infoImg10,
-    infoImg9,
-    infoImg5,
-    infoImg3,
-    infoImg1,
-    infoImg2,
-  ];
 
   return (
     <div>
       <Carousel images={sliderImages} title={'Uma ideia'}></Carousel>
 
       <CardContainer />
-
-      <PlanContainer
-        sessionTitle="Nossos Planos"
-        sessionText="Oferecemos os melhores planos para com a necessidade do cliente"
-        url='https://wa.me/83998644279'
-      />
 
       <InfoContainer
         sessionTitle="Institucional"
@@ -74,6 +35,13 @@ const Home = () => {
         to='/sobre'
         buttonText="Institucional"
         buttonIcon="fa-solid fa-arrow-pointer"
+      />
+
+      <PlanContainer
+        sessionTitle="Nossos Planos"
+        sessionText="Oferecemos os melhores planos para com a necessidade do cliente"
+        plans={servicesData.plans}
+        url='https://wa.me/83998644279'
       />
 
       <PortfolioButtons />

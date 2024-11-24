@@ -1,7 +1,7 @@
 import './ServiceStyles.css';
 import React from 'react';
 import Hero from '../../components/hero/Hero';
-import serviceImg from '../../assets/imgs/night.jpg';
+import serviceImg from '../../assets/imgs/4.jpg';
 import Button from '../../components/button/Button';
 import Footer from '../../components/footer/Footer';
 import ServiceInfoCard from '../../components/serviceinfocard/ServiceInfoCard';
@@ -35,14 +35,27 @@ const Service = () => {
           ))}
         </div>
 
-        <PlanContainer 
+        <PlanContainer
           sessionTitle="Nossos Planos"
-          sessionText="Oferecemos os melhores planos para com a necessidade do cliente"
+          sessionText="Oferecemos os melhores planos para a necessidade do cliente."
+          plans={servicesData.plans}
+          url="https://wa.me/83998644279"
         />
+
+        <div id="important">
+          <h3>
+            <i class="fa-solid fa-exclamation-triangle"></i>
+            Importante
+            <i class="fa-solid fa-exclamation-triangle"></i>
+          </h3>
+          <p>
+            Esse desconto só se aplica pagando até o dia do vencimento. Passando, é o valor do plano cheio + encargos bancários, como juros e multa.
+          </p>
+        </div>
 
         <p>Quer mais informações? Nosso whatsapp está sempre disponível!</p>
         <Button
-          url='./'
+          url='https://wa.me/83998644279'
           buttonCName='button service'
           buttonText='Fale Conosco'
           buttonIcon='fa-brands fa-whatsapp'

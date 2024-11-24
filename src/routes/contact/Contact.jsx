@@ -39,7 +39,7 @@ const Contact = () => {
             <h3>Redes sociais: </h3>
             <a href='https://www.instagram.com/inetnordeste/'><i className='fa-brands fa-square-instagram'></i></a>
             <a href='https://www.facebook.com/inetnordeste'><i className='fa-brands fa-square-facebook'></i></a>
-            <a href='/'><i className='fa-brands fa-telegram'></i></a>
+            <a href='https://t.me/inetvendas/4'><i className='fa-brands fa-telegram'></i></a>
             <a href='https://api.whatsapp.com/message/IM4FGE2PLUHVI1'><i className='fa-brands fa-square-whatsapp'></i></a>
           </div>
         </div>

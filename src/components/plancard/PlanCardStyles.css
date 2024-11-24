@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 4rem 6rem;
+    padding: 3rem 2rem;
     color: var(--primary-font-color);
     box-shadow: -1px 1px 62px 18px rgba(0, 0, 0, 0.2);
     background-color: var(--secondary-color);
@@ -17,10 +17,15 @@
     border-bottom: 3px solid var(--primary-font-color);
 }
 
-.plan-card p {
+.plan-card h5 {
     margin: 0.5rem 0;
     font-size: 1.2rem;
     font-weight: 400;
+}
+
+.plan-card h6 {
+    margin: 0.5rem 0 1rem;
+    font-size: 0.8rem;
 }
 
 .plan-card span {

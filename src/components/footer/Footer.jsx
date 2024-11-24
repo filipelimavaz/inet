@@ -1,7 +1,7 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-import './FooterStyles.css'
+import './FooterStyles.css';
 
 const Footer = () => {
   return (
@@ -15,7 +15,7 @@ const Footer = () => {
           <a href='https://www.instagram.com/inetnordeste/'><i className='fa-brands fa-square-instagram'></i></a>
           <a href='https://www.facebook.com/inetnordeste'><i className='fa-brands fa-square-facebook'></i></a>
           <a href='https://api.whatsapp.com/message/IM4FGE2PLUHVI1'><i className='fa-brands fa-square-whatsapp'></i></a>
-          <a href='/'><i className='fa-brands fa-telegram'></i></a>
+          <a href='https://t.me/inetvendas/4'><i className='fa-brands fa-telegram'></i></a>
         </div>
       </div>
       <div className='bottom'>
@@ -38,8 +38,8 @@ const Footer = () => {
           <h4>Redes Sociais</h4>
           <a href="https://www.instagram.com/inetnordeste/">Instagram</a>
           <a href="https://www.facebook.com/inetnordeste">Facebook</a>
-          <a href="./">Telegram</a>
-          <a href="https://api.whatsapp.com/message/IM4FGE2PLUHVI1">Whastapp</a>
+          <a href="https://t.me/inetvendas/4">Telegram</a>
+          <a href="https://api.whatsapp.com/message/IM4FGE2PLUHVI1">Whatsapp</a>
         </div>
         <div className='last'>
           <h4>Contate-nos</h4>
@@ -50,14 +50,17 @@ const Footer = () => {
         </div>
         <div className='last'>
           <h4>Outros</h4>
-          <a href="./">Termos de Serviço</a>
-          <a href="./">Política de Privacidade</a>
-          <a href="./">Licença</a>
+          <a 
+            href="../../public/documents/POLITICA_PRIVACIDADE_INETTELECOMUNICACOES.pdf" 
+            download="POLITICA_PRIVACIDADE_INETTELECOMUNICACOES.pdf"
+          >
+            Política de Privacidade
+          </a>
         </div>
       </div>
       <p>© Copyright 2024 – Todos os direitos reservados: iNet Telecomunicações</p>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

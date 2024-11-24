@@ -4,50 +4,71 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin: 2rem 0;
+    padding: 0 2rem;
 }
 
 .plan-container h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 700;
     text-align: center;
-    margin: 4rem 10rem 0 10rem;
-    white-space: nowrap;
+    margin: 2rem 0;
 }
 
 .plan-container p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 .plan-card-container {
-    margin: 4rem 8rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
 }
 
 .plan-card {
-    margin-top: 2rem;
-    width: 25%;
-}
-
-@media screen and (max-width: 1500px) {
-    .plan-card {
-        flex: 1 1 calc(40%);
-        max-width: calc(40%);
-        margin: 4rem 0;
-    }
+    width: 300px;
+    margin: 0;
 }
 
 @media screen and (max-width: 850px) {
+    .plan-container h2 {
+        font-size: 2rem;
+    }
+
+    .plan-container p {
+        font-size: 1rem;
+    }
+
     .plan-card-container {
-        margin: 4rem 0 0 0;
+        gap: 1.5rem;
     }
 
     .plan-card {
-        flex: 1 1 100%;
-        max-width: 100%;
-        margin: 0 2rem;
+        width: 90%;
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .plan-container h2 {
+        font-size: 2rem;
+    }
+
+    .plan-container p {
+        font-size: 1rem;
+    }
+
+    .plan-card-container {
+        gap: 1rem;
+    }
+
+    .plan-card {
+        width: 100%;
+        max-width: 320px;
     }
 }

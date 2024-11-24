@@ -17,5 +17,37 @@
         "Gramame/SESC"
       ]
     }
+  ],
+  "plans": [
+    {
+      "title": "60 MEGA",
+      "price": "R$ 65,00",
+      "info": "Pagando até o vencimento tem desconto! Ficando por",
+      "discount": "R$ 60,00"
+    },
+    {
+      "title": "200 MEGA",
+      "price": "R$ 80,00",
+      "info": "Pagando até o vencimento tem desconto! Ficando por",
+      "discount": "R$ 75,00"
+    },
+    {
+      "title": "300 MEGA",
+      "price": "R$ 90,00",
+      "info": "Pagando até o vencimento tem desconto! Ficando por",
+      "discount": "R$ 85,00"
+    },
+    {
+      "title": "500 MEGA",
+      "price": "R$ 120,00",
+      "info": "Pagando até o vencimento tem desconto! Ficando por",
+      "discount": "R$ 110,00"
+    },
+    {
+      "title": "800 MEGA",
+      "price": "R$ 160,00",
+      "info": "Pagando até o vencimento tem desconto! Ficando por",
+      "discount": "R$ 150,00"
+    }
   ]
 }
